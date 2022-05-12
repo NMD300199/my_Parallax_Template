@@ -1,0 +1,342 @@
+.navbar{
+    display: flex;
+    position: fixed;
+    height: 40px;
+    top: 0;
+    left: 0;
+    right: 0;
+    justify-content: space-between;
+    background-color: transparent;
+    z-index: 2;
+}
+
+.navbar-ani{
+    background-color: #fff;
+    box-shadow: 0 2px 5px 0 #ccc;
+}
+
+.navbar_list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.navbar_list-item-link{
+    display: block;
+    line-height: 24px;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 8px 16px;
+    color: #777777;
+    text-transform: uppercase;
+}
+
+.navbar_list-item-link:hover{
+    background-color: #ccc;
+}
+
+.navbar_search{
+    line-height: 24px;
+    font-size: 15px;
+    padding: 8px 16px;
+}
+
+.navbar_search:hover{
+    background-color: #f44336;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* header */
+.img {
+    background-image: url('/Example for my website/assect/img/parallax1.jpg');
+}
+
+.background-header-color {
+    background-color: #000;
+    font-size: 24px;
+}
+
+
+/* about me */
+.content {
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 15px 0;
+    color: #777;
+    text-align: justify;
+}
+
+.about-myname {
+    padding: 12px 24px;
+    color: #777;
+    font-size: 15px;
+}
+.about-myname-text {
+    text-align: center;
+    margin: 15px 0;
+    font-weight: 200;
+    line-height: 2;
+}
+.about-myname-text h3{
+    display: inline;
+    margin-left: 10px;
+}
+
+.about-myname img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.about-myname-content {
+    padding: 12px 24px;
+    margin-top: 15px;
+    text-align: justify;
+    font-size: 15px;
+    color: #777;
+    line-height: 1.8;
+}
+
+.about-text{
+    color: #777;
+    font-size: 18px;
+    margin: 18px 0;
+    padding: 16px 0;
+    line-height: 1.5;
+    text-align: center;
+    display: block;
+}
+
+.info-items {
+    color: #777;
+    font-size: 15px;
+    line-height: 2;
+    margin: 15px 0;
+}
+
+.info i{
+    margin-right: 5px;
+}
+.info-items-little{
+    display: inline;
+    letter-spacing: 8px;
+}
+
+.info-percent {
+    background-color: #f1f1f1;
+}
+
+.info-percent-number {
+    background-color: #616161;
+    color: #fff;
+    font-size: 15px;
+    line-height: 2;
+    padding: 4px 8px;
+    text-align: center;
+    display: block;
+}
+
+.percent-90 {
+    margin-right: 10%;
+}
+
+.percent-85 {
+    margin-right: 15%;
+}
+
+.percent-75 {
+    margin-right: 25%;
+}
+
+/* Portfolio */
+.portfolio-list {
+    background-color: #616161;
+    padding: 16px 0;
+    color: #fff;
+}
+
+.por-item{
+    text-align: center;
+    margin: 16px 0;
+}
+
+.por-item-number{
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.por-item-content{
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.img2 {
+    background-image: url('/Example for my website/assect/img/parallax2.jpg');
+}
+
+.img22{
+    background-image: url('/Example for my website/assect/img/p1.jpg');
+}
+
+.background-header-text {
+    font-size: 36px;
+}
+/* work */
+.work-list{
+    padding: 15px 0;
+}
+.work-img {
+    padding-top: 12px;
+}
+.work-img > img {
+    width: 100%;
+}
+
+.work-img > img:hover{
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.work-btn{
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 12px 24px;
+    margin: 50px auto 0;
+    background-color: #f1f1f1;
+    border: none;
+    display: block;
+    text-align: center;
+}
+
+.work-btn:hover{
+    cursor: pointer;
+    background-color: #ccc;
+}
+
+/* contact */
+.img3 {
+    background-image: url('/Example for my website/assect/img/parallax3.jpg');
+}
+
+/* Connect */
+.connect-map > img{
+    width: 100%;
+    padding: 0 16px;
+    border-radius: 4px;
+}
+
+.connect-info{
+    margin: 16px 0;
+    padding: 0 16px;
+}
+
+.connect-info-work{
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.connect-info-work + .connect-info-work {
+    margin-bottom: 10px;
+}
+
+.connect-info-work i {
+    margin-right: 16px;
+}
+
+.connect-info-text{
+    font-size: 15px;
+    color: #777;
+    line-height: 1.5;
+    margin: 15px 0;
+}
+
+.connect-infor-inputs {
+    display: flex;
+    margin: 0 -8px 0;
+}
+
+.connect-infor-send{
+    padding: 8px;
+    font-size: 15px;
+    line-height: 2;
+    margin: 5px 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.connect-infor-send:first-child{
+    width: 45%;
+}
+
+.connect-infor-send:last-child{
+    flex-grow: 1;
+}
+
+.connect-infor-message{
+    width: 100%;
+    padding: 8px;
+    font-size: 15px;
+    line-height: 2;
+    margin: 5px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+/* footer */
+.footer {
+    background-color: #000;
+    height: 300px;
+    opacity: 0.6;
+    position:relative;
+    padding: 64px 0;
+}
+
+.footer:hover {
+    opacity: 1;
+}
+
+.footer-btn {
+    text-align: center;
+}
+
+.footer-btn-link{
+    background-color: #f1f1f1;
+    color: #000;
+    padding: 8px 16px;
+    font-size: 15px;
+    line-height: 2;
+    text-decoration: none;
+}
+
+.footer-btn-link:hover{
+    background-color: #ccc;
+}
+.footer-btn-link i{
+    margin-right: 8px;
+}
+.footer-icon{
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    margin: 16px 0;
+    line-height: 2;
+}
+
+.footer-icon i:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.footer-title{
+    color: #fff;
+    text-align: center;
+}
+
+.footer-title a{
+    color: #fff;
+}
+
+.footer-title a:hover{
+    color: #4caf50;
+}
